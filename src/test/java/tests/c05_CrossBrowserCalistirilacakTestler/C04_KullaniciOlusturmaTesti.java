@@ -15,7 +15,7 @@ public class C04_KullaniciOlusturmaTesti extends TestBaseCross {
 
 
     @Test
-    public void KullaniciOlusturmaTesti(){
+    public void KullaniciOlusturmaTesti() {
 
         // testotomasyonu sayfasina gidin
         driver.get(ConfigReader.getProperty("toUrl"));
@@ -73,33 +73,8 @@ public class C04_KullaniciOlusturmaTesti extends TestBaseCross {
         loginButon.click();
 
         // 6- Basarili olarak giris yapilabildigini test edin
-        WebElement logoutButton = driver.findElement(By.xpath( "//span[.='Logout']"));
+        WebElement logoutButton = driver.findElement(By.xpath("//span[.='Logout']"));
         Assert.assertTrue(logoutButton.isDisplayed());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
