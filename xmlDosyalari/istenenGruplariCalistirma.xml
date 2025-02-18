@@ -28,7 +28,7 @@
 
         <!-- sonra bu gruplari nerede bulacagini soyluyoruz -->
         <packages>
-            <package name="test.*"></package>
+            <package name="tests.*"></package>
         </packages>
 
 
